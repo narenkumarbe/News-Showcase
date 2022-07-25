@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  background-color: #6846c6;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  border: 10px;
+  background-color: #04aa6d;
+  color: white;
+  padding: 6px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  /* position: fixed;
+  width: 100%;
+  height: 35px; */
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.card {
+  width: 23%;
+  box-shadow: 0 0 5px 10px pink;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+}
+.images {
+  width: 80%;
+}
+.title {
+  font-size: 1.3rem;
+}
+p {
+  text-align: left;
+}
+span {
+  font-weight: bold;
+}
+
+/* Animated Button - Ripple Effect */
+
+/* .button {
+  position: relative;
+  background-color: #04aa6d;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+ */
+/* .sourceName {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 1em;
+  font-size: 1.5rem;
+} */
